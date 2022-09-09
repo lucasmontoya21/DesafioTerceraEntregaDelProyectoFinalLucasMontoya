@@ -1,0 +1,523 @@
+@import "variables";
+
+/* Main */
+
+.h2Main {
+    font-family: $estilo-fuente-principal;
+    font-weight: bolder;
+    font-size: $tam-fuente-subtitulo-movil;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Ropa {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.parrafo2 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.parrafoIndex2 {
+    color: white;
+    background-color: black;
+    font-family: $estilo-fuente-secundaria;
+    font-size: $tam-fuente-parrafo;
+    text-align: center;
+    border: 5px red dashed;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Marcas */
+
+.tituloMarcas {
+    text-align: center;
+    font-weight: bolder;
+    font-family: $estilo-fuente-principal;
+    font-size: $tam-fuente-subtitulo-movil;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sub {
+    text-align: start;
+    text-transform: uppercase;
+    font-family: $estilo-fuente-secundaria;
+    margin: 20px;
+    padding: 20px;
+}
+
+.muestra {
+    display: inline-block;
+    margin: 5px;
+
+    .anorakCuerdos {
+        width: 220px;
+        height: 220px;
+    }
+
+    .buzoCuerdos {
+        width: 220px;
+        height: 220px;
+    }
+
+    .remeraCuerdos {
+        width: 220px;
+        height: 220px;
+    }
+
+    .buzoWe1 {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .buzoWe2 {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .outfitWe {
+        width: 220px;
+        height: 220px;
+    }
+
+    .buzoZimith {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .remeraZimith {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .camperaZimith {
+        width: 220px;
+        height: 220px;
+    }
+
+    .remeraAl10 {
+        width: 220px;
+        height: 220px;
+    }
+
+    .buzoClasicAl10 {
+        width: 220px;
+        height: 220px;
+    }
+
+    .buzoAl10 {
+        width: 220px;
+        height: 220px;
+    }
+
+    .momfitRotoVolsano {
+        width: 220px;
+        height: 220px; 
+    }
+    
+    .momfitVolsano {
+        width: 220px;
+        height: 220px; 
+    }
+    
+    .regularVolsano {
+        width: 220px;
+        height: 220px;
+    }
+
+    .chupinRad {
+        width: 220px;
+        height: 220px;
+    }
+
+    .momRad {
+        width: 220px;
+        height: 220px;
+    }
+
+    .widelegRad {
+        width: 220px;
+        height: 220px;
+    }
+
+    .riño1Cierre {
+        width: 220px;
+        height: 220px;
+    }
+
+    .riño2Cierre {
+        width: 220px;
+        height: 220px;
+    }
+
+    .riñoCuadrada {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/* Contacto/Ubicacion */
+
+.tituloUbicacion {
+    font-size: $tam-fuente-subtitulo-movil;
+    font-weight: bolder;
+    margin: 10px;
+    font-family: $estilo-fuente-principal;
+}
+
+.mapa {
+    position: relative;
+    width: 70%;
+    left: 110px;
+}
+
+.indicacionMapa {
+    font-family: $estilo-fuente-secundaria;
+    font-size: 15px;
+}
+
+.cajaForm {
+    background-color: red;
+    border: 3px black dashed;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+.form-label {
+    color: white;
+}
+
+.btn {
+    background-color: black;
+}
+
+/* Talles */
+
+.curvas {
+    width: 80%;
+    height: 80%;
+}
+
+/* Sobre Nosotros */
+
+.tituloSobreNosotros {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: $tam-fuente-subtitulo-movil;
+    font-family: $estilo-fuente-principal;
+    margin: 20px;
+    padding: 20px;
+}
+
+.parrafoSobreNosotros {
+    display: none;
+}
+
+.entradaLocal1 {
+    display: none;
+}
+
+.parrafoAgradecimiento {
+    color: white;
+    background-color: black;
+    border: 2px red dashed;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family:$estilo-fuente-secundaria;
+}
+
+.entradaLocal2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    left: 50px;
+}
+
+.empleados2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+}
+
+.empleados1 {
+    display: none;
+}
+
+.agradecimiento {
+    display: none;
+}
+
+
+@media screen and (min-width:990px ) {
+
+    /* Index */
+
+    .h2Main {
+        font-family: $estilo-fuente-principal;
+        font-weight: bolder;
+        font-size: $tam-fuente-subtitulo;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .Ropa {
+        width: 500px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .parrafoIndex2 {
+        display: none;
+    }
+
+    /* Marcas */
+
+    .tituloMarcas {
+        text-align: center;
+        font-weight: bolder;
+        font-family: $estilo-fuente-principal;
+        font-size: $tam-fuente-subtitulo;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .sub {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $estilo-fuente-secundaria;
+        margin: 20px;
+        padding: 20px;
+        text-decoration: underline;
+        color: red;
+    }
+    
+    .muestra {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+    
+        .anorakCuerdos {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .buzoCuerdos {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .remeraCuerdos {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .buzoWe1 {
+            width: 400px;
+            height: 450px;
+        }
+        
+        .buzoWe2 {
+            width: 400px;
+            height: 450px;
+        }
+        
+        .outfitWe {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .buzoZimith {
+            width: 400px;
+            height: 450px;
+        }
+        
+        .remeraZimith {
+            width: 400px;
+            height: 450px;
+        }
+        
+        .camperaZimith {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .remeraAl10 {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .buzoClasicAl10 {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .buzoAl10 {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .momfitRotoVolsano {
+            width: 400px;
+            height: 450px; 
+        }
+        
+        .momfitVolsano {
+            width: 400px;
+            height: 450px; 
+        }
+        
+        .regularVolsano {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .chupinRad {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .momRad {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .widelegRad {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .riño1Cierre {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .riño2Cierre {
+            width: 400px;
+            height: 450px;
+        }
+    
+        .riñoCuadrada {
+            width: 400px;
+            height: 450px;
+        }
+    }
+
+    /* Contacto/Ubicacion */
+
+    .tituloUbicacion {
+        font-size: $tam-fuente-subtitulo;
+        font-weight: bolder;
+        margin: 10px;
+        font-family: $estilo-fuente-principal;
+    }
+
+    .mapa {
+        position: relative;
+        transition: all 0,3;
+        width: 70%;
+        left: 190px;
+    }
+
+    .mapa:hover {
+        width: 80%;
+    }
+    
+    .indicacionMapa {
+        font-family: $estilo-fuente-secundaria;
+        font-size: 15px;
+    }
+    
+    .cajaForm {
+        background-color: black;
+        border: 5px red solid;
+        margin: 30px;
+        padding: 30px;
+        
+    }
+    
+    .form-label {
+        color: red;
+    }
+
+    .btn {
+        background-color: red;
+    }
+
+    /* Talles */
+
+    .curvas {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Sobre Nosotros */
+
+    .tituloSobreNosotros {
+        text-align: center;
+        font-family: $estilo-fuente-principal;
+        font-size: $tam-fuente-subtitulo;
+        font-weight: bolder;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .parrafoSobreNosotros {
+        color: white;
+        display: inline-block;
+        border: 5px black solid;
+        background-color: red;
+        text-align: center;
+        margin: 20px;
+        font-family: $estilo-fuente-secundaria;
+        font-size: $tam-fuente-parrafo;
+    }
+    
+    .entradaLocal2 {
+        display: none;
+    }
+    
+    .parrafoAgradecimiento {
+        display: none;
+    }
+    
+    .entradaLocal1 {
+        position: relative;
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+        left: 100px;
+    }
+    
+    .empleados1 {
+        position: relative;
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+        left: 100px;
+    }
+    
+    .empleados2 {
+        display: none;
+    }
+    
+    .agradecimiento {
+        color: white;
+        display: block;
+        border: 5px black solid;
+        background-color: red;
+        text-align: center;
+        margin: 20px;
+        font-family: $estilo-fuente-secundaria;
+        font-size: $tam-fuente-parrafo;
+    }
+}

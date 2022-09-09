@@ -1,0 +1,77 @@
+@import "variables";
+
+/* Index */
+
+header{
+    .logo {
+        position: relative;
+        width: 250px;
+        left: 200px;
+        border-radius: 10px;
+    }
+
+    .aColor {
+        color: red;
+        text-decoration: none;
+    }
+
+    .parrafoIndex1 {
+        display: none;
+    }
+
+    .tituloIndex {
+        display: none;
+    }
+}
+
+@media screen and (min-width:990px ) {
+    header {
+
+        .divColor {
+           background-color: red;
+           border: 1px black solid;
+    
+           .logo {
+                position: static;            
+                width: 300px;
+                border-radius: 10px;
+            }
+    
+            .liColor {
+                background-color: grey;
+                border: 1px black solid;
+    
+            .aColor {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            }
+        }
+    
+        .tituloIndex{
+            display: inline;
+            position: relative;
+            font-family: $estilo-fuente-principal;
+            font-size: $tam-fuente-titulo;
+            font-weight: bolder;
+            left: 350px;
+        }
+
+        .parrafo1 {
+            margin: 20px;
+        }
+    
+        .parrafoIndex1 {
+            color: white;
+            display: inline-block;
+            font-family: $estilo-fuente-secundaria;
+            font-size: $tam-fuente-parrafo;
+            text-align: center;
+            border: 5px black solid;
+            margin: 5px;
+            padding: 5px;
+            background-color: red;
+        }
+    }
+}

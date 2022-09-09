@@ -1,0 +1,14 @@
+@import "variables";
+
+/* Footer */
+
+footer {
+    border: 1px black solid;
+    background-color: red;
+    text-align: start;
+    font-family: $estilo-fuente-secundaria;
+}
+
+.fs-5 {
+    color: white;
+}

@@ -1,0 +1,45 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+
+/* estilos scss */
+
+.contenedor-fluid {
+    overflow-x: hidden;
+}
+
+.fixed {
+    position: fixed;
+    transition: all 0,3;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    border-radius: 30px;
+    
+    &:hover {
+        width: 180px;
+        height: 120px;
+    }
+ }
+
+ @media screen and (min-width:990px ) {
+
+    .tituloIndex {
+        display: none;
+    }
+
+    .fixed {
+        position: fixed;
+        transition: all 0,3;
+        bottom: 0px;
+        right: 0px;
+        width: 120px;
+        border-radius: 30px;
+        
+        &:hover {
+            width: 200px;
+            height: 130px;
+        }
+     }
+ }
